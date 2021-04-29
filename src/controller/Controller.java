@@ -30,6 +30,7 @@ public class Controller implements ActionListener, GameListener {
 	private Service service;
 	private TakeActions takeActions;
 	private boolean gameover;
+	
 	public Controller() throws InterruptedException, FullHandException, CloneNotSupportedException {
 		new GameIntro();
 		
